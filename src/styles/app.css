@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-size: 16px;
+}
+
+button, input {
+    transition: .3s;
+}
+
+code {
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 1em;
+}

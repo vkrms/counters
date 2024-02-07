@@ -1,0 +1,29 @@
+.sidebar {
+    background: #e7f1f5;
+    padding: 32px;
+    /* color: #fff; */
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 auto;
+    text-align: left;
+}
+
+.layout {
+    display: flex;
+    width: 100%;
+    background: #f7fdff;
+    height: 100%;
+    /* padding: 16px; */
+}
+
+.main {
+    flex: 1 1 auto;
+    padding: 16px;
+}
+
+.counter-add {
+    width: fit-content;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    margin-top: 1em;
+}

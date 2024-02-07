@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CounterOffensive />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CounterOffensive from './components/CounterOffensive.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    CounterOffensive,
+  },
+};
 </script>
 
 <style>
@@ -21,6 +20,15 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 </style>

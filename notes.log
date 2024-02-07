@@ -1,0 +1,64 @@
+Понимаете основы реактивности:
+- отличаете ref и reactive (включая shallow) V
+- computed от methods V
+- get/set computed V
+
+Можете написать кастомный
+- Composable V
+- Directive
+
+===
+
+Container query is cool, I want to try that.
+It's really usable with columns and sidebars.
+
+Each counter has a:
+Title
+Description
+Current
+Max
+
+---
+
+I need a database then? A firebase?
+I am lazy about attaching the firebase. Let's do it.
+
+---
+
+I want to add a createdAt field in the firebase.
+I want to add routing to allow for switching between routes,
+meaning I want to save a new counter with a slug V
+
+Manually adding slugs in firebase is a waste of time
+
+
+I will only fetch the counters I open.  The dice decided so.
+I need the slug to be the identifier 
+
+---
+
+Ok, now I want to add this feature where I could update the values on firebase
+
+---
+
+PWA requirements:
+
+- A valid JSON manifest of the app’s info, with the correct info filled in
+- A JavaScript service worker (to allow the site to load offline and store data locally)
+- A set of properly named icons, at multiple sizes
+- A secure, HTTPS connection
+
+===
+
+What good could be said about this project?
+1. I've further familiarized myself with the Composition API
+2. I've got a taste of tailwind
+3. Dusted-off my firebase skills
+4. I am getting the flow of working with copilot, it's really helpful
+5. I am building something I am really going to use
+6. Got a taste of PWA 
+
+---
+
+I want to make it look eye-candy. With glows and shit.
+

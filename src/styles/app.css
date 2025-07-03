@@ -19,3 +19,7 @@ code {
     display: inline-block;
     margin-bottom: 1em;
 }
+
+.counter-descr::placeholder {
+    opacity: 0.4;
+}

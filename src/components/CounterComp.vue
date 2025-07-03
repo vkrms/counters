@@ -64,10 +64,15 @@ function autoSave() {
 <!-- TEMPLATE -->
 <template @hide="handleHide">
   <!-- <code>{{ props.slug }}</code> -->
-  <h3 class="mb-4">{{ state.Title }}</h3>
+  <h3 class="mb-4 text-2xl font-semibold">{{ state.Title }}</h3>
 
   <div class="descr">
-    {{ state.Descr }}
+    <textarea      
+      v-model="state.Descr"
+      placeholder="description..."
+      class="counter-descr w-full max-w-[64ch] mb-4 mx-auto bg-transparent border-teal-300/10 focus:border-teal-400 focus:bg-white/50 transition-all duration-300 rounded-lg text-center resize-none"
+      style="field-sizing: content;"
+    />
   </div>
 
   <span class="w-5 text-right inline-block">{{ state.Current }}</span>
